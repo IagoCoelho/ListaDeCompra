@@ -23,4 +23,8 @@ public class CompraService {
         repository.deleteById(id);
         return true;
     }
+
+    public void save(Compra compra) {
+        repository.save(compra);
+    }
 }
