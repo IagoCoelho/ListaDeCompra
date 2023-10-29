@@ -1,5 +1,6 @@
 package br.com.fiap.listacompra.compra;
 
+import br.com.fiap.listacompra.user.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
